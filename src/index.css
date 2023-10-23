@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply font-inter xl:text-xl text-pb-normal-active
+}
+
+@layer base {
+  h1, h4 {
+    @apply font-plus-jakarta-sans
+  }
+}
+
+@layer components {
+
+    .input {
+      @apply py-3 px-3 text-sm text-white placeholder:text-white outline-none bg-[#2563EB] border rounded-lg
+    }
+
+    .btn-outline {
+      @apply bg-white border border-blue-500 text-blue-500 px-3 py-2 ;
+    }
+    .btn-blue {
+      @apply bg-blue-500 px-4 py-2  hover:bg-blue-600 active:bg-blue-700 text-white;
+    }
+    .btn-dark {
+      @apply bg-blue-500 px-4 py-2  hover:bg-blue-600 active:bg-blue-700 text-white;
+    }
+    .btn-yellow {
+      @apply bg-yellow-500 px-3 py-2  hover:bg-yellow-600 active:bg-yellow-700 text-white;
+    }
+    .btn-white {
+      @apply bg-white px-3 py-2  hover:bg-gray-100 active:bg-gray-200;
+    }
+  }
