@@ -4,6 +4,7 @@ import LogoUpscale from './upscale-logo.png'
 import LogoEduwork from './eduwork-logo.png'
 
 import hi_social_footer from './hi-social-logo-footer.svg'
+import hi_social from './hi-social.svg'
 
 export {
     LogoSisko,
@@ -11,5 +12,6 @@ export {
     LogoUpscale,
     LogoEduwork,
 
-    hi_social_footer
+    hi_social_footer,
+    hi_social
 }
