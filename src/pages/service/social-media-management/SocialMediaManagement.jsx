@@ -19,7 +19,7 @@ const SocialMediaManagement = () => {
                 <Banner />
                 <CorporateCollaboration />
                 <WhyChooseUs />
-                <div className="w-full mt-14 pt-28">
+                <div className="w-full lg:mt-14 lg:pt-28">
                     <SocialMediaStrategy />
                     <ContentCreation />
                     <CommunityManagement />
