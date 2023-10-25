@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="max-w-[1180px] w-full mx-auto">
                 <div className="w-full py-16 space-y-10 text-center bg-[#2563EB] rounded-2xl">
                     <h1 className="px-8 lg:px-0 text-xl lg:text-3xl xl:text-4xl font-bold lg:leading-tight xl:leading-tight text-white">Subscribe to our newsletter</h1>
-                    <div className="flex flex-col lg:flex-row gap-4 w-full lg:w-[70%] mx-auto px-8">
+                    <div className="flex flex-col lg:flex-row lg:items-center gap-4 w-full lg:w-[70%] mx-auto px-8">
                         <input 
                             type="text"
                             className="flex-1 input w-full"

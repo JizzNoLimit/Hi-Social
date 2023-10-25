@@ -2,7 +2,7 @@ import { analytic_and_reporting } from "../../assets/img/image"
 
 const AnalyticReporting = () => {
     return (
-        <div className="px-6 lg:px-32 xl:px-0">
+        <div className="px-6 lg:px-32 xl:px-0 pb-11">
             <div className="flex items-center max-w-[1180px] w-full mx-auto py-10">
                 <div className="hidden lg:block flex-1">
                     <img 
@@ -11,10 +11,10 @@ const AnalyticReporting = () => {
                         alt="gambar analytic and reporting" 
                     />
                 </div>
-                <div className="flex-1 text-center md:text-right pb-28">
+                <div className="flex-1 text-center md:text-right">
                     <h1 className="text-2xl lg:text-4xl xl:text-5xl font-bold lg:leading-tight xl:leading-tight text-pb-normal-active">Analytics and Reporting</h1>
                     <p className="mt-4 xl:mt-5 text-lg xl:text-2xl">Access valuable insights into your social media performance, allowing you to make data-driven decisions.</p>
-                    <button className="btn-blue w-full lg:w-auto lg:px-12 lg:py-2 xl:px-14 xl:py-3 mt-6 lg:mt-7 xl:mt-9 font-bold xl:text-xl rounded-xl">Learn more</button>
+                    <button className="btn-blue w-full lg:w-auto lg:px-12 lg:py-2 xl:px-14 xl:py-3 mt-8 lg:mt-7 xl:mt-9 font-bold xl:text-xl rounded-xl">Learn more</button>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import { check_circle } from "../../assets/icon/icon"
 
 const DesignPrices = () => {
     return (
-        <div className="w-full px-6 lg:px-32 xl:px-0 py-10">
+        <div className="w-full px-6 lg:px-32 xl:px-0">
             <div className="max-w-[1180px] w-full mx-auto">
                 <h1 className="text-2xl lg:text-4xl xl:text-5xl font-bold text-center lg:leading-tight xl:leading-tight text-pb-normal-active">Design <span className="text-p-normal">Prices</span></h1>
                 <p className="mt-4 xl:mt-5 text-lg xl:text-2xl text-center">Professional and best Logo and Branding Identity Service Packages at the lowest costs.</p>
